@@ -38,7 +38,7 @@
 
 1. Clone this repository locally
 2. Make sure the directory `~/.config/gitui` exists. If it doesn't run `gitui` in a git repository to create the necessary files
-3. Copy the `.ron` files from the theme directory in this repository to `~/.config/gitui` with `cp ./themes/*.ron ~/.config/gitui`
+3. Copy the `.ron` files from the theme directory in this repository to `~/.config/gitui` with `cp ./theme/*.ron ~/.config/gitui`
 4. Alias `gitui` to `gitui -t <theme>.ron` in your shell's rc file, replacing `<theme>` with mocha, macchiato, frappe, or latte.
 5. Run `gitui` and see the magic happen!
 
