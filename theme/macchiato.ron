@@ -4,7 +4,7 @@
     selection_bg: Rgb(91, 96, 120),
     selection_fg: Rgb(202, 211, 245),
     cmdbar_bg: Rgb(30, 32, 48),
-    cmdbar_extra_lines_bg: Rgb(145, 215, 227),
+    cmdbar_extra_lines_bg: Rgb(30, 32, 48),
     disabled_fg: Rgb(128, 135, 162),
     diff_line_add: Rgb(166, 218, 149),
     diff_line_delete: Rgb(237, 135, 150),
