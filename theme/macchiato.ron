@@ -8,7 +8,7 @@
     disabled_fg: Some(Rgb(128, 135, 162)),
     diff_line_add: Some(Rgb(166, 218, 149)),
     diff_line_delete: Some(Rgb(237, 135, 150)),
-    diff_file_added: Some(Rgb(238, 212, 159)),
+    diff_file_added: Some(Rgb(166, 218, 149)),
     diff_file_removed: Some(Rgb(238, 153, 160)),
     diff_file_moved: Some(Rgb(198, 160, 246)),
     diff_file_modified: Some(Rgb(245, 169, 127)),
