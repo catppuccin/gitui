@@ -18,7 +18,7 @@ whiskers:
     disabled_fg: Some("#{{ palette.overlay1.hex }}"),
     diff_line_add: Some("#{{ palette.green.hex }}"),
     diff_line_delete: Some("#{{ palette.red.hex }}"),
-    diff_file_added: Some("#{{ palette.yellow.hex }}"),
+    diff_file_added: Some("#{{ palette.green.hex }}"),
     diff_file_removed: Some("#{{ palette.maroon.hex }}"),
     diff_file_moved: Some("#{{ palette.mauve.hex }}"),
     diff_file_modified: Some("#{{ palette.peach.hex }}"),
