@@ -43,7 +43,7 @@
 > [!TIP]
 > This theme looks best paired with a matching Catppuccin theme for your terminal.
 
-1. Copy the flavor(s) of your choice from [`theme/`](./theme/) to your [GitUI configuration directory](https://github.com/extrawurst/gitui/blob/master/THEMES.md) (typically `~/.config/gitui`).
+1. Copy the flavor(s) of your choice from [`themes/`](./themes/) to your [GitUI configuration directory](https://github.com/extrawurst/gitui/blob/master/THEMES.md) (typically `~/.config/gitui`).
 2. You can either alias the `gitui` command to `gitui -t <flavor>.ron` (where `<flavor>` is mocha, macchiato, frappe, or latte) in your shell's configuration, or rename the flavor in the configuration directory to `theme.ron` (to load it as the default theme).
 
 ## 💝 Thanks to
