@@ -36,6 +36,10 @@
 
 ## Usage
 
+> [!IMPORTANT]
+> If you are using a version below `0.26.2`, view the instructions on the
+> [`pre-0.26.2`](https://github.com/catppuccin/gitui/tree/pre-0.26.2) tag.
+
 1. Clone this repository locally
 2. Make sure the directory `~/.config/gitui` exists. If it doesn't run `gitui` in a git repository to create the necessary files
 3. Copy the `.ron` files from the theme directory in this repository to `~/.config/gitui` with `cp ./theme/*.ron ~/.config/gitui`
