@@ -1,0 +1,33 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.ron"
+---
+
+{%- set palette = flavor.colors -%}
+
+(
+    selected_tab: Some("Reset"),
+    command_fg: Some("#{{ palette.text.hex }}"),
+    selection_bg: Some("#{{ palette.surface2.hex }}"),
+    selection_fg: Some("#{{ palette.text.hex }}"),
+    cmdbar_bg: Some("#{{ palette.mantle.hex }}"),
+    cmdbar_extra_lines_bg: Some("#{{ palette.mantle.hex }}"),
+    disabled_fg: Some("#{{ palette.overlay1.hex }}"),
+    diff_line_add: Some("#{{ palette.green.hex }}"),
+    diff_line_delete: Some("#{{ palette.red.hex }}"),
+    diff_file_added: Some("#{{ palette.yellow.hex }}"),
+    diff_file_removed: Some("#{{ palette.maroon.hex }}"),
+    diff_file_moved: Some("#{{ palette.mauve.hex }}"),
+    diff_file_modified: Some("#{{ palette.peach.hex }}"),
+    commit_hash: Some("#{{ palette.lavender.hex }}"),
+    commit_time: Some("#{{ palette.subtext1.hex }}"),
+    commit_author: Some("#{{ palette.sapphire.hex }}"),
+    danger_fg: Some("#{{ palette.red.hex }}"),
+    push_gauge_bg: Some("#{{ palette.blue.hex }}"),
+    push_gauge_fg: Some("#{{ palette.base.hex }}"),
+    tag_fg: Some("#{{ palette.rosewater.hex }}"),
+    branch_fg: Some("#{{ palette.teal.hex }}")
+)
