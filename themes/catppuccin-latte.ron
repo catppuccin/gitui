@@ -8,7 +8,7 @@
     disabled_fg: Some("#8c8fa1"),
     diff_line_add: Some("#40a02b"),
     diff_line_delete: Some("#d20f39"),
-    diff_file_added: Some("#df8e1d"),
+    diff_file_added: Some("#40a02b"),
     diff_file_removed: Some("#e64553"),
     diff_file_moved: Some("#8839ef"),
     diff_file_modified: Some("#fe640b"),
