@@ -36,6 +36,10 @@
 
 ## Usage
 
+> [!IMPORTANT]
+> If you are using a version below `0.26.2`, view the instructions on the
+> [`pre-0.26.2`](https://github.com/catppuccin/gitui/tree/pre-0.26.2) tag.
+
 > [!TIP]
 > This theme looks best paired with a matching Catppuccin theme for your terminal.
 
